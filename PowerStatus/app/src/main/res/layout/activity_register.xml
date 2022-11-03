@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="-2dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Register New Account "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="User Name"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabelTextColor="@color/colorPrimaryDark"
+            app:met_textColor="@color/colorPrimaryDark"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Email"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabelTextColor="@color/colorPrimaryDark"
+            app:met_textColor="@color/colorPrimaryDark"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="Password"
+            android:padding="5dp"
+            android:textColor="@color/colorPrimaryDark"
+            app:met_floatingLabel="normal"
+
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_floatingLabelTextColor="@color/colorPrimaryDark"
+            app:met_textColor="@color/colorPrimaryDark"/>
+
+        <RadioGroup
+            android:id="@+id/radiogp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="Male"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="Female"
+                android:textColor="@color/colorPrimaryDark" />
+        </RadioGroup>
+
+            <Button
+                android:id="@+id/register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Register" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Power Status</string>
+    <string name="prefLoginState">loginstate</string>
+    <string name="websiteManmoLOCAL">http://192.168.0.104</string>
+    <string name="website">https://powernotif.systems</string>
+    <string name="websitemyAsusLocal">http://192.168.43.204</string>
+    <integer name="value">2</integer>
+</resources>
